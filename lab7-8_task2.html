@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header title">
+            <h1>Тортики</h1>
+            <img src="https://cdn-icons-png.flaticon.com/512/5141/5141642.png" alt="Ampersand" class="header-img">
+            <h1>Тістечка</h1>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <div class="menu-header">
+                    <p style="margin: 0;">Калорії у порції</p>
+                    <div class="slider">
+                        <div class="handle" style="top: -10px; left: 10%;"></div>
+                        <div class="line-bold" style="left: 9%;"></div>
+                        <div class="handle" style="top: -10px; left: 8%;"></div>
+                    </div>
+                    <p style="text-align: left; margin: 10px;">Від 0 до 400 кКал</p>
+                </div>
+                <label for="pie">
+                    <div class="button">
+                        Пиріг
+                    </div>
+                </label>
+                <label for="roll">
+                    <div class="button">
+                        Рулет
+                    </div>
+                </label>
+                <label for="cheesecakes">
+                    <div class="button">
+                        Сирники
+                    </div>
+                </label>
+                <label for="pastry">
+                    <div class="button">
+                        Тістечко
+                    </div>
+                </label>
+                <label for="cake">
+                    <div class="button">
+                        Торт
+                    </div>
+                </label>
+                <label for="reset">
+                    <div class="button">
+                        Скинути фільтр
+                    </div>
+                </label>
+            </div>
+            <input type="radio" id="pie" name="desserts">
+            <input type="radio" id="roll" name="desserts">
+            <input type="radio" id="cheesecakes" name="desserts">
+            <input type="radio" id="pastry" name="desserts">
+            <input type="radio" id="cake" name="desserts">
+            <input type="radio" id="reset" name="desserts" checked>
+            <div class="main">
+                <div class="item cake">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://static.vkusnyblog.com/full/uploads/2023/05/biskvitnyi-tort-s-shokoladom-i-malinoi.jpg"
+                                target="_blank">
+                                <img src="https://static.vkusnyblog.com/full/uploads/2023/05/biskvitnyi-tort-s-shokoladom-i-malinoi.jpg"
+                                    alt="Cake">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Торт: 
+                                <a href="https://www.vkusnyblog.com/recipe/biskvitnyj-tort-s-shokoladom-i-malinoj/"
+                                    target="_blank">
+                                    <b> Бісквітний</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 305 кКал</p>
+                    </div>
+                </div>
+                <div class="item pastry">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://images.unian.net/photos/2021_02/thumb_files/400_0_1612886109-7683.jpg?0.7839542418386409"
+                                target="_blank">
+                                <img src="https://images.unian.net/photos/2021_02/thumb_files/400_0_1612886109-7683.jpg?0.7839542418386409"
+                                    alt="Pastry">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Тістечко:
+                                <a href="https://www.unian.ua/recipes/desserts/sweet/tistechko-shu-recept-tistechka-shu-z-kremom-11315447.html"
+                                    target="_blank">
+                                    <b> Шу</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 305 кКал</p>
+                    </div>
+                </div>
+                <div class="item cheesecakes">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2020/06/syrnyky_sitewebukr-img-1000x600.jpg?v=1682503872"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2020/06/syrnyky_sitewebukr-img-1000x600.jpg?v=1682503872"
+                                    alt="Cheese-cakes">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Сирники:
+                                <a href="https://klopotenko.com/wp-content/uploads/2020/06/syrnyky_sitewebukr-img-1000x600.jpg?v=1682503872"
+                                    target="_blank">
+                                    <b> Класичні</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 450 кКал</p>
+                    </div>
+                </div>
+                <div class="item cake">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2021/04/shvarzvald_siteweb.jpg"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2021/04/shvarzvald_siteweb.jpg"
+                                    alt="Сake">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Торт:
+                                <a href="https://klopotenko.com/tort-shvartsvald-2/"
+                                    target="_blank">
+                                    <b> Шварцвальд</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 523 кКал</p>
+                    </div>
+                </div>
+                <div class="item roll">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://smachnonews.24tv.ua/resources/photos/news/202209/2168425.jpg?v=1664521609000&w=840&h=472&fit=cover&output=webp&q=50"
+                                target="_blank">
+                                <img src="https://smachnonews.24tv.ua/resources/photos/news/202209/2168425.jpg?v=1664521609000&w=840&h=472&fit=cover&output=webp&q=50"
+                                    alt="Roll">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Рулет:
+                                <a href="https://www.unian.ua/lite/holidays/biskvitniy-rulet-recept-yak-gotuvati-biskvitniy-rulet-11051096.html" target="_blank">
+                                    <b> Бісквітний</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 380 кКал</p>
+                    </div>
+                </div>
+                <div class="item pie">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://klopotenko.com/wp-content/uploads/2021/09/yabluchna-sharlotka-na-kefiri_sitewebukr-img-1000x600.jpg?v=1692182911"
+                                target="_blank">
+                                <img src="https://klopotenko.com/wp-content/uploads/2021/09/yabluchna-sharlotka-na-kefiri_sitewebukr-img-1000x600.jpg?v=1692182911"
+                                    alt="apple-pie">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Пиріг:
+                                <a href="https://klopotenko.com/yablychnyi-pyrig-na-kefiri/"
+                                    target="_blank">
+                                    <b> Яблучний</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 295 кКал</p>
+                    </div>
+                </div>
+                <div class="item cake">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://kondishop.com.ua/image/catalog/Musse.jpg"
+                                target="_blank">
+                                <img src="https://kondishop.com.ua/image/catalog/Musse.jpg"
+                                    alt="Сake">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Торт:
+                                <a href="https://kondishop.com.ua/ua/recepti/recept-torta-3-shokoladu" target="_blank">
+                                    <b> Три шоколади</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 600 кКал</p>
+                    </div>
+                </div>
+                <div class="item pastry">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://www.depo.ua/uploads/65982/conversions/e3058ec9a025b153a01748d83eb6d630-wide-big.jpg"
+                                target="_blank">
+                                <img src="https://www.depo.ua/uploads/65982/conversions/e3058ec9a025b153a01748d83eb6d630-wide-big.jpg"
+                                    alt="Pastry">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Тістечко:
+                                <a href="https://smachna-vypichka.pp.ua/tistechko-vuppi-recept/"
+                                    target="_blank">
+                                    <b> Вуппі</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 430 кКал</p>
+                    </div>
+                </div>
+                <div class="item pastry">
+                    <div class="item-header">
+                        <div class="image">
+                            <a href="https://dity.ogo.ua/wp-content/uploads/2022/12/tistechko-Kartoplya-.jpg"
+                                target="_blank">
+                                <img src="https://dity.ogo.ua/wp-content/uploads/2022/12/tistechko-Kartoplya-.jpg"
+                                    alt="Potato">
+                            </a>
+                        </div>
+                        <div class="item-title">
+                            <p>
+                                Тістечко:
+                                <a href="https://dity.ogo.ua/hotnews/gotuyemo-tistechko-kartoplya-za-15-hvylyn/"
+                                    target="_blank">
+                                    <b> Картопля</b>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-footer">
+                        <p>Калорії у порції - 342 кКал</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Контакти: <span>tortik@smakota.ua</span></p>
+            <p>© 2023 Smakota</p>
+        </div>
+    </div>
+</body>
+
+</html>
